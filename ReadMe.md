@@ -1,7 +1,7 @@
 #### To run the automated scripts,
 
 - Make sure the latest version of [NodeJs and NPM](https://nodejs.org/en) is installed and th system.
-- Open a terminal clone this repo and `cd` to the `src` directory in this repo
+- Open a terminal clone this repo and `cd` to the root directory in this repo
 - If this is the first time Playwright is run on the PC, it is better to run `npx playwright install` to install playwright browsers which is a dependency to run these tests and will not be installed as part of the package restore.
 - Run `npm i` to install all dependent packages
 - Optional: Run `npm i -g allure-commandline` to install allure cli for rendering allure reports
