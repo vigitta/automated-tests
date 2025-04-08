@@ -1,0 +1,61 @@
+
+# Playwright
+node_modules/
+/blob-report/
+/playwright/.cache/
+reports/
+traces/
+
+# TypeScript output
+dist/
+build/
+
+# Playwright test artifacts
+playwright-report/
+
+# Cucumber test reports
+cucumber-reports/
+
+# JUnit test reports
+junit-report/
+test-results/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# IDEs and editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# NPM package lock
+package-lock.json
+
+# Yarn lock file (if you use yarn)
+yarn.lock
+
+# Environment variable files
+.env
+.env.*  # For different environments like .env.production, .env.test, etc.
+
+# TypeScript local files (for IDEs like VSCode)
+*.tsbuildinfo
+
+# Playwright screenshots and videos (if you save them for debugging)
+playwright/screenshots/
+playwright/videos/
+
+# Other common temporary files
+*.tmp
+*.bak
+*.old
+

@@ -1,0 +1,9 @@
+{
+  "indentation": {
+    "active": true,
+    "indentParam": 2
+  },
+  "no-trailing-spaces": "on",
+  "no-empty-file": "on",
+  "no-scenario-outlines-without-examples": "on"
+}

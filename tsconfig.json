@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "es2018",
+    "module": "CommonJS",
+    "sourceMap": true,
+    "outDir": "./build",
+    "noEmit": false,  // Change from true to false to generate output files
+    "strict": true,
+    "noImplicitAny": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "skipDefaultLibCheck": true,
+    "resolveJsonModule": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "lib": ["ES2021","DOM","DOM.Iterable"],
+    "allowSyntheticDefaultImports": true,  // Add this for better import compatibility
+    "forceConsistentCasingInFileNames": true  // Add this to catch file system case sensitivity issues
+  },
+  "include": ["src/**/*"],  // Add this to be explicit about what files to include
+  "exclude": ["node_modules"]
+}
